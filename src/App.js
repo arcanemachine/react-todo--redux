@@ -1,10 +1,13 @@
 // import logo from './logo.svg';
 // import './App.css';
+import './App.sass';
 
 function App() {
   return (
-    <div className="App">
-      Hello world!
+    <div className="hero">
+      <span className="title">
+        Hello world!
+      </span>
       {/*
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
