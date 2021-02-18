@@ -4,7 +4,10 @@ import './App.sass';
 
 function App() {
 
-  const listItems = ['feed cat', 'walk dog']
+  const listItems = [
+    {id: 0, value: 'feed cat'},
+    {id: 1, value: 'walk dog'},
+  ];
 
   return (
     <div className="container">
@@ -29,7 +32,7 @@ function App() {
             <div className="content">
               <ul>
                 {listItems.map(listItem =>
-                  <li>{listItem}</li>
+                  <li key={listItem.id}>{listItem.value}</li>
                 )}
               </ul>
             </div>
