@@ -28,6 +28,10 @@ function App() {
               placeholder="Add an item..."
             />
 
+            <button className="mt-2 button is-info is-fullwidth">
+              Add Item
+            </button>
+
           </div>
 
           <div className="section">
